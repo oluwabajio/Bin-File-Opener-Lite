@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: co.ogury.module:ogury-ads:4.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c10bc5dc7492c27fdff8b6165c9d9b5/jetified-ogury-ads-4.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c10bc5dc7492c27fdff8b6165c9d9b5/jetified-ogury-ads-4.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c10bc5dc7492c27fdff8b6165c9d9b5/jetified-ogury-ads-4.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

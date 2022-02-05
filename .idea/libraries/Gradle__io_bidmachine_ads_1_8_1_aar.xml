@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.bidmachine:ads:1.8.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/185b62a2a10c58175a785644eb9d4711/jetified-ads-1.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/185b62a2a10c58175a785644eb9d4711/jetified-ads-1.8.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/185b62a2a10c58175a785644eb9d4711/jetified-ads-1.8.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

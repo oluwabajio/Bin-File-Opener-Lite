@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.bidmachine:ads.networks.facebook:1.8.1.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc47376b07e808136b16491c23cd59df/jetified-ads.networks.facebook-1.8.1.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc47376b07e808136b16491c23cd59df/jetified-ads.networks.facebook-1.8.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc47376b07e808136b16491c23cd59df/jetified-ads.networks.facebook-1.8.1.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

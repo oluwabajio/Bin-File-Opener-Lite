@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bin.file.opener.ui.select_file.SelectFileFragment">
+
+    <TextView
+        android:layout_above="@id/ly1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:text="This is a Binary file viewer or opener. It allows you select any binary or other files to display their binary content either in Hxadecimal or Decimal format"/>
+
+   <LinearLayout
+       android:id="@+id/ly1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp"
+       android:gravity="center_horizontal"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#000000"
+           android:text="Kindly select .BIN file or Other Files"/>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btnSelectFile"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:background="#000000"
+           android:textColor="#ffffff"
+           android:paddingHorizontal="20dp"
+           android:text="Select File"/>
+
+   </LinearLayout>
+
+</RelativeLayout>

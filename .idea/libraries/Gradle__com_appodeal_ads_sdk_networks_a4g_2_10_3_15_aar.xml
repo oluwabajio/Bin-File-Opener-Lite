@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appodeal.ads.sdk.networks:a4g:2.10.3.15@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd283cfbc77aee6ac13e01797502406e/jetified-a4g-2.10.3.15/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd283cfbc77aee6ac13e01797502406e/jetified-a4g-2.10.3.15/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd283cfbc77aee6ac13e01797502406e/jetified-a4g-2.10.3.15/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

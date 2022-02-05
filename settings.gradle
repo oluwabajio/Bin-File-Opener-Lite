@@ -1,0 +1,3 @@
+rootProject.name='Binary File Viewer'
+include ':app'
+
