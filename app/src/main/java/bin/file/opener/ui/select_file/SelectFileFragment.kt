@@ -15,21 +15,9 @@ import bin.file.opener.R
 import android.content.DialogInterface
 import android.net.Uri
 import android.provider.Settings
-import android.widget.TextView
 import android.widget.Toast
 
-import com.google.android.material.snackbar.Snackbar
-
-import bin.file.opener.MainActivity
-
 import androidx.core.app.ActivityCompat
-
-
-
-
-
-
-
 
 class SelectFileFragment : Fragment() {
 

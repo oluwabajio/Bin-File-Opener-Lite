@@ -10,4 +10,23 @@
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#777777</color>
     <color name="ignoreTextColor">#CCCCCC</color>
+
+
+    <color name="navigationBarColor">#030825</color>
+    <color name="textColorPrimary">#FFFFFFFF</color>
+    <color name="textColorSecondary">#FFC5C5C5</color>
+    <color name="actionMenuTextColor">#FFFFFFFF</color>
+    <color name="textColor">#FFFFFFFF</color>
+    <color name="windowBackground">#FF040A2C</color>
+    <color name="md_colorButtonNormal">#FF0A1347</color>
+    <color name="md_colorBackground">#FF0A1347</color>
+    <color name="colorControlNormal">#FFC5C5C5</color>
+    <color name="textColorDisabled">#FF9E9E9E</color>
+    <color name="textColorPrimaryDisabled">#FF9E9E9E</color>
+    <color name="textColorSecondaryDisabled">#FF919191</color>
+    <color name="colorAccentDisabled">#FF76A6B6</color>
+    <color name="colorResultError">#FFD34248</color>
+    <color name="colorResultWarning">#FFFF9800</color>
+    <color name="colorTextUpdated">#FFD34248</color>
+    <color name="colorLineNumbers">#FFFFC107</color>
 </resources>
