@@ -145,6 +145,6 @@
     <string name="start_offset">Start</string>
     <string name="end_offset">End</string>
     <string name="unit">Unit:</string>
-    <string name="this_binary_file_try_the_second_method">This Binary File allows you display binary files in Decimal or Hexadeciam formats. \n\n We offer two methods for you to view Binary Files. \n\n If the first method doesnt work for you, try the second method.</string>
+    <string name="this_binary_file_try_the_second_method">This Binary File allows you display binary files in Decimal or Hexadecimal formats. \n\n We offer two methods for you to view Binary Files. \n\n If the first method doesnt work for you, try the second method.</string>
 
 </resources>

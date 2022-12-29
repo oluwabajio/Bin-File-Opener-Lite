@@ -5,7 +5,8 @@
     android:id="@+id/file_viewer_scroller"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    tools:context="bin.file.opener.ui.fileviewer.FileViewerFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

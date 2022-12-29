@@ -9,6 +9,8 @@ import android.view.*
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.FrameLayout
+import android.widget.ScrollView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -16,13 +18,13 @@ import androidx.lifecycle.observe
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import bin.file.opener.BottomNavigationDrawerFragment
 import bin.file.opener.R
+import bin.file.opener.databinding.FragmentSelectFileBinding
 import com.startapp.sdk.adsbase.StartAppAd
-import kotlinx.android.synthetic.main.file_viewer_fragment.*
+
 import kotlin.math.roundToInt
 
 
 class FileViewerFragment : Fragment() {
-
 
     companion object {
         fun newInstance(path: String?): FileViewerFragment {
@@ -47,6 +49,7 @@ class FileViewerFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         StartAppAd.showAd(activity)
+
         return inflater.inflate(R.layout.file_viewer_fragment, container, false)
     }
 
@@ -90,27 +93,27 @@ class FileViewerFragment : Fragment() {
     }
 
     private fun setupView() {
-        tv_bytes.setOnClickListener {
+        requireActivity().findViewById<TextView>(R.id.tv_bytes).setOnClickListener {
 
         }
     }
 
     private fun observeViewModel() {
         mViewModel.mTitleString.observe(viewLifecycleOwner) {
-            tv_title.text = it
+            requireActivity().findViewById<TextView>(R.id.tv_title).text = it
         }
 
         mViewModel.mPosString.observe(viewLifecycleOwner) {
-            tv_position.text = it
+            requireActivity().findViewById<TextView>(R.id.tv_position).text = it
         }
 
         mViewModel.mBytesStyledString.observe(viewLifecycleOwner) {
-            tv_bytes.text = it
+            requireActivity().findViewById<TextView>(R.id.tv_bytes).text = it
             Log.e("TAG", "observeViewModel: mbyte called "+ it.substring(0, 12), )
         }
 
         mViewModel.mAsciiStyledString.observe(viewLifecycleOwner) {
-            tv_ascii.text = it
+            requireActivity().findViewById<TextView>(R.id.tv_ascii).text = it
         }
     }
 
@@ -142,15 +145,17 @@ class FileViewerFragment : Fragment() {
     }
 
     private fun scrollToLine(lineNum: Int) {
-        file_viewer_scroller.post {
+        requireActivity().findViewById<ScrollView>(R.id.file_viewer_scroller).post {
             var actualLineNum = lineNum
-            if (actualLineNum > tv_bytes.lineCount)
-                actualLineNum = tv_bytes.lineCount
-            val y = tv_bytes.layout.getLineTop(actualLineNum) + tv_title.height
-            file_viewer_scroller.scrollTo(0, y)
+            if (actualLineNum > requireActivity().findViewById<TextView>(R.id.tv_bytes).lineCount)
+                actualLineNum = requireActivity().findViewById<TextView>(R.id.tv_bytes).lineCount
+            val y = requireActivity().findViewById<TextView>(R.id.tv_bytes).layout.getLineTop(actualLineNum) + requireActivity().findViewById<TextView>(R.id.tv_title).height
+            requireActivity().findViewById<ScrollView>(R.id.file_viewer_scroller).scrollTo(0, y)
         }
     }
+
+
+    val Int.dp: Int
+        get() = (this * Resources.getSystem().displayMetrics.density).roundToInt()
 }
 
-val Int.dp: Int
-    get() = (this * Resources.getSystem().displayMetrics.density).roundToInt()

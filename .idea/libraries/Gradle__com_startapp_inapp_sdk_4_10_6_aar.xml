@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.startapp:inapp-sdk:4.10.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ba977d58360b20fa9a3749cd9d9553c3/transformed/jetified-inapp-sdk-4.10.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba977d58360b20fa9a3749cd9d9553c3/transformed/jetified-inapp-sdk-4.10.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba977d58360b20fa9a3749cd9d9553c3/transformed/jetified-inapp-sdk-4.10.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.startapp/inapp-sdk/4.10.6/4b3d7733f0e1c5cdbc89c78ee406da673bdc1b7e/inapp-sdk-4.10.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.startapp/inapp-sdk/4.10.6/1c0435526416979f0ae5d7906ef37d705dcc32e2/inapp-sdk-4.10.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

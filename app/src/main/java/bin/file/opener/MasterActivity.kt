@@ -3,21 +3,24 @@ package bin.file.opener
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.multidex.BuildConfig
+import bin.file.opener.databinding.ActivityMasterBinding
 import bin.file.opener.ui.fileviewer.FileViewerFragment
 import bin.file.opener.ui.select_file.SelectFileFragment
 import com.appodeal.ads.Appodeal
 import com.appodeal.ads.BannerCallbacks
 import com.startapp.sdk.adsbase.StartAppAd
 import com.startapp.sdk.adsbase.StartAppSDK
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_master.*
+
 
 
 class MasterActivity : AppCompatActivity() {
+
+    lateinit var binding: ActivityMasterBinding
 
     companion object {
         private val PERMISSIONS_CODE = 1001
@@ -27,9 +30,11 @@ class MasterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMasterBinding.inflate(layoutInflater)
+
         setContentView(R.layout.activity_master)
 
-        setSupportActionBar(bottom_app_bar)
+        setSupportActionBar(binding.bottomAppBar)
 
 
 
@@ -124,7 +129,11 @@ class MasterActivity : AppCompatActivity() {
     }
 
     private fun hasPermissions(): Boolean {
-        return checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
+        } else {
+            true
+        }
     }
 
 
