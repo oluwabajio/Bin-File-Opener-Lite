@@ -50,7 +50,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5e5c868921c6c371fa82e57f639283a8/transformed/preference-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2c77034b97a1b7183ebe3c8da310cd70/transformed/appcompat-1.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/cc2d8bfdc064248b67ad6188fc0768b3/transformed/jetified-core-ktx-1.7.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/b12c5d77b1ffe1a88bbfd7988ba161ee/transformed/jetified-inapp-sdk-4.10.6-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/c57809a1466260e62ae92edaadb0b0bf/transformed/jetified-inapp-sdk-4.10.12-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5d3262e09d879d2a1e2bddabbdcd648a/transformed/legacy-support-v4-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/661e65f2cb20565903902063fe8df4ee/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6b97e888eef97d5ad1f1522b34cf8056/transformed/swiperefreshlayout-1.1.0-api.jar</arg>
@@ -121,7 +121,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/76c7f17a9a34f21f9cd3248b7247673f/transformed/jetified-internal-3.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/fd4c1626c78084285ac4a94d68a04bb9/transformed/jetified-consent-3.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a25411938c3ab42b7bf082e288922c65/transformed/jetified-startup-runtime-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-32/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
@@ -153,7 +153,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/test/java" isTestSource="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/src/testDebug" />
-    <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Binary_File_Viewer.app.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.3.0" level="project" />
@@ -241,7 +241,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.appodeal.ads.sdk.core:public:3.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.appodeal.ads.sdk.core:internal:3.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.appodeal.ads:consent:3.0.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.startapp:inapp-sdk:4.10.6@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.startapp:inapp-sdk:4.10.12@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.emoji:emoji-bundled:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.emoji:emoji:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.work:work-runtime:2.7.1@aar" level="project" />
