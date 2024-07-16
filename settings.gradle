@@ -6,6 +6,7 @@ pluginManagement {
         maven {
             url "https://artifactory.appodeal.com/appodeal"
         }
+        maven { url "https://startappdev.bintray.com/maven" }
     }
 }
 dependencyResolutionManagement {
@@ -16,6 +17,7 @@ dependencyResolutionManagement {
         maven {
             url "https://artifactory.appodeal.com/appodeal"
         }
+        maven { url "https://startappdev.bintray.com/maven" }
     }
 }
 

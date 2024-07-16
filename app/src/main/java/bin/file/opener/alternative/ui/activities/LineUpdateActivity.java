@@ -263,7 +263,7 @@ public class LineUpdateActivity extends AppCompatActivity implements View.OnClic
     Appodeal.setTesting(BuildConfig.DEBUG);
    String APP_KEY = "0735ee422c20c34818eb8d9ef96eefe3e8028bd4334ece68";
     Appodeal.setBannerViewId(R.id.appodealBannerView);
-    Appodeal.initialize(this, APP_KEY, Appodeal.BANNER, true);
+    Appodeal.initialize(this, APP_KEY, Appodeal.BANNER);
     Appodeal.setBannerCallbacks(setBannerCallBacks());
     Appodeal.show(this, Appodeal.BANNER_VIEW);
 

@@ -130,7 +130,7 @@ public class MainActivity extends AbstractBaseMainActivity implements AdapterVie
         Appodeal.setTesting(BuildConfig.DEBUG);
 
         Appodeal.setBannerViewId(R.id.appodealBannerView);
-        Appodeal.initialize(this, APP_KEY, Appodeal.BANNER, true);
+        Appodeal.initialize(this, APP_KEY, Appodeal.BANNER);
         Appodeal.setBannerCallbacks(setBannerCallBacks());
         Appodeal.show(this, Appodeal.BANNER_VIEW);
 

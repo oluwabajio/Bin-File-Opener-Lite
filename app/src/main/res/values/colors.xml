@@ -6,6 +6,8 @@
 
     <color name="colorStatusBar">#222222</color>
     <color name="colorAppbar">#222222</color>
+    <color name="tt_black">#000000</color>
+    <color name="tt_white">#ffffff</color>
 
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#777777</color>

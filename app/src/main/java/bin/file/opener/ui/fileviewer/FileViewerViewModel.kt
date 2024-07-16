@@ -76,7 +76,7 @@ class FileViewerViewModel : ViewModel() {
     }
 
     private fun setupDisplay() {
-        mPrefs = PreferenceManager.getDefaultSharedPreferences(mAppContext)
+        mPrefs = PreferenceManager.getDefaultSharedPreferences(mAppContext!!)
         val dimIgnore = mPrefs?.getBoolean("dim_zeroes", true) ?: true
         val prefsDisplayMode = mPrefs?.getString("binary_format", "dec")
         val prefsBytesPerLine = mPrefs?.getString("bytes_per_line", "8") ?: "8"
