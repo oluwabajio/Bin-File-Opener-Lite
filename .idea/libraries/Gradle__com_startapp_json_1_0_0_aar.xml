@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.startapp:json:1.0.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46aec86e93521af1b385dcb20b8d768e/transformed/jetified-json-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/46aec86e93521af1b385dcb20b8d768e/transformed/jetified-json-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.startapp/json/1.0.0/82cc8d73ec1a96c14b44957acd43ae2d1efbe881/json-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.startapp/json/1.0.0/ec17570814cd54ffbd623beb2dd445d812ed863a/json-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

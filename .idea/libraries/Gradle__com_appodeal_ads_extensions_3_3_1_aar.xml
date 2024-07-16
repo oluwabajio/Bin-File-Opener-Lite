@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appodeal.ads:extensions:3.3.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a9388c1bac647cec74683a5252cf7a1e/transformed/jetified-extensions-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a9388c1bac647cec74683a5252cf7a1e/transformed/jetified-extensions-3.3.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
